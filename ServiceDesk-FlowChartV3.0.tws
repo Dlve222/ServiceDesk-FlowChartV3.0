@@ -34,7 +34,7 @@ p16
 (dp17
 S'text'
 p18
-V<html>\u000a<p>Welcome to the APAT Service Desk Flow Chart. This tool will help you with answering phone calls, emails, or working on service now tickets.</p>\u000a<p><narrative>When you see this font and color you read aloud</narrative></p>\u000a<p><interm>When you see this font and color you read to yourself</interm>\u000a<hr>\u000a<p>So lets begin!!!</p>\u000a<p><interm>What Queue will I be working from?</interm></p>\u000a</html>\u000a[[Phone Call Queue|Phone]]\u000a[[Email Queue|Email]]\u000a[[Service Now Queue|Service Now Ticket]]\u000a\u000a\u000a
+VWelcome to the APAT Service Desk Flow Chart. This tool will help you with answering phone calls, emails, or working on service now tickets.\u000a----\u000aSo lets begin!!!\u000a\u000aWhat Queue will I be working from?\u000a\u000a[[Phone Call Queue|Phone]]\u000a[[Email Queue|Email]]\u000a[[Service Now Queue|Service Now Ticket]]\u000a\u000a\u000a
 p19
 sS'title'
 p20
@@ -274,7 +274,7 @@ Tiddler
 p99
 (dp100
 g63
-V<html>\u000a<p><narrative>This is (fill in you name here), How may i help you.</narrative></p>\u000a<hr>\u000a<p><interm>What was the customer having a problem with?</interm></p>\u000a</html>\u000a[[Can't login|account]]\u000a[[Download Issues]]\u000a[[Missing Tabs in MyUK|MyUK Issues]]\u000a[[Need My Unoficial Transcript|Unofficial Transcript]]\u000a[[Can't Connect to the internet|Network Issues]]\u000a[[Can't Access My Voice Mail|Voicemail Issues]]\u000a[[My Email Isnt working|Email Issues]]\u000a[[Blackboard isnt working|Blackboard Issues]]\u000a[[My Account is locked out|Account Issues]]\u000a[[Can't Remember Password|Password]]
+V\u000a"This is (fill in you name here), How may i help you".\u000a----\u000aWhat was the customer having a problem with?\u000a\u000a\u000a[[Can't login|account]]\u000a[[Download Issues]]\u000a[[Missing Tabs in MyUK|MyUK Issues]]\u000a[[Need My Unoficial Transcript|Unofficial Transcript]]\u000a[[Can't Connect to the internet|Network Issues]]\u000a[[Can't Access My Voice Mail|Voicemail Issues]]\u000a[[My Email Isnt working|Email Issues]]\u000a[[Blackboard isnt working|Blackboard Issues]]\u000a[[My Account is locked out|Account Issues]]\u000a[[Can't Remember Password|Password]]
 p101
 sg65
 VPhone
@@ -512,7 +512,7 @@ VHPC
 p188
 sbsa(dp189
 g12
-I01
+I00
 sg13
 (lp190
 F1410.0
@@ -523,7 +523,7 @@ Tiddler
 p191
 (dp192
 g177
-V<html>\u000a<p><narrative>What are you trying to log in to.</narrative></p>\u000a<hr>\u000a<p><interm>What was the customer having a problem Logging into?</interm></p>\u000a</html>\u000a\u000a[[Computer]]\u000a[[Black Board]]\u000a[[Email|Email-1]]\u000a[[Download Sites]]\u000a[[Guest Access to MyUK]]\u000a[[MyUK]]\u000a[[Virtual Den]]\u000a[[HSM]]\u000a[[TSM]]\u000a[[WWW]]\u000a[[SCM]]\u000a[[High Performace Computing (HPC)|HPC]]\u000a[[VPN]]\u000a[[Link Blue]]\u000a[[Qualtrics]]\u000a[[Employment]]\u000a[[Admissions]]\u000a[[Kronos]]\u000a[[Housing]]
+V"What are you trying to log in to".\u000a----\u000aWhat was the customer having a problem Logging into?\u000a\u000a\u000a[[Computer]]\u000a[[Black Board]]\u000a[[Email|Email-1]]\u000a[[Download Sites]]\u000a[[Guest Access to MyUK]]\u000a[[MyUK]]\u000a[[Virtual Den]]\u000a[[HSM]]\u000a[[TSM]]\u000a[[WWW]]\u000a[[SCM]]\u000a[[High Performace Computing (HPC)|HPC]]\u000a[[VPN]]\u000a[[Link Blue]]\u000a[[Qualtrics]]\u000a[[Employment]]\u000a[[Admissions]]\u000a[[Kronos]]\u000a[[Housing]]
 p193
 sg179
 (lp194
@@ -549,7 +549,7 @@ Vaccount
 p199
 sbsa(dp200
 g12
-I00
+I01
 sg13
 (lp201
 F1550.0
@@ -560,7 +560,7 @@ Tiddler
 p202
 (dp203
 g177
-V<html>\u000a<p><narrative>So you're having problem logging into your computer.</narrative></p>\u000a<p>Wait for Callers Reply</p>\u000a<ul class="choicelist">\u000a<li><narrative>Are you sure your using the correct Username and Password?</narrative></li>\u000a<li><narrative>Is the Caps Lock Button On?</narrative></li>\u000a<li><narrative>Do you have access to a web browser from another computer, or another users computer? Once you have access to web browser are you able to log into the Account Manager?</narrative></li>\u000a</ul>\u000a<hr>\u000a<p><interm>Did any of these solve the issue?</interm></p>\u000a</html>\u000a[[Yes]]\u000a[[No]]
+V"So you're having problem logging into your computer".\u000a----\u000a*Are you sure your using the correct Username and Password?\u000a*Is the Caps Lock Button On?\u000a*three Do you have access to a web browser from another computer, or another users computer? Once you have access to web browser are you able to log into the Account Manager?\u000a----\u000aDid any of these solve the issue?\u000a[[Yes]]\u000a[[No]]
 p204
 sg179
 (lp205
