@@ -5,7 +5,7 @@ VC:\u005cUsers\u005cdlve222\u005cDocuments\u005cGitHub\u005cServiceDesk-FlowChar
 p2
 sS'saveDestination'
 p3
-S'C:\\Users\\mahudg2\\Documents\\GitHub\\ServiceDesk-FlowChartV3.0\\ServiceDesk-FlowChartV3.0.tws'
+S'C:\\Users\\dlve222\\Documents\\GitHub\\ServiceDesk-FlowChartV3.0\\ServiceDesk-FlowChartV3.0.tws'
 p4
 sS'target'
 p5
@@ -103,7 +103,7 @@ sg30
 g40
 sbsa(dp42
 g12
-I00
+I01
 sg13
 (lp43
 F10.0
@@ -200,7 +200,7 @@ Tiddler
 p77
 (dp78
 g63
-VWhat is the email regarding?\u000aDo you understand the customers request/issue?
+VWhat is the email regarding?\u000aDo you understand the customers request/issue?\u000a
 p79
 sg65
 VEmail
@@ -1513,7 +1513,6 @@ sg323
 g489
 sg324
 VPassword
-<<<<<<< HEAD
 p490
 sbsa(dp491
 g12
@@ -1557,136 +1556,7 @@ sS'title'
 p505
 VGuest Access to MyUK
 p506
-sbsa(dp507
-g12
-I00
-sg13
-(lp508
-F850.0
-aF290.0
-asg15
-(itiddlywiki
-Tiddler
-p509
-(dp510
-S'text'
-p511
-Vthis is a test of my branching 12-3-13 8:18 AM
-p512
-sS'tags'
-p513
-(lp514
-sS'created'
-p515
-g23
-((I2013
-I12
-I3
-I8
-I16
-I32
-I1
-I337
-I0
-tp516
-(dp517
-tp518
-Rp519
-sS'modified'
-p520
-g519
-sS'title'
-p521
-VDavids testing of branching.
-p522
-sbsa(dp523
-g12
-I01
-sg13
-(lp524
-F844.99999999999977
-aF436.66666666666663
-asg15
-(itiddlywiki
-Tiddler
-p525
-(dp526
-S'text'
-p527
-Vthis is a test of my branching 12-3-13 8:18 AM
-p528
-sS'tags'
-p529
-(lp530
-sS'created'
-p531
-=======
-p472
-sbsa(dp473
-g12
-I01
-sg13
-(lp474
-F1244.9999999999998
-aF531.66666666666663
-asg15
-(itiddlywiki
-Tiddler
-p475
-(dp476
-S'text'
-p477
-VThis is a test for branching 12/3/13 8:15 am
-p478
-sS'tags'
-p479
-(lp480
-sS'created'
-p481
->>>>>>> origin/Branch-1
-g23
-((I2013
-I12
-I3
-I8
-<<<<<<< HEAD
-I16
-I32
-I1
-I337
-I0
-tp532
-(dp533
-tp534
-Rp535
-sS'modified'
-p536
-g535
-sS'title'
-p537
-VMatt's testing of branching 2
-p538
 sbsasS'scale'
-p539
-=======
-I14
-I58
-I1
-I337
-I0
-tp482
-(dp483
-tp484
-Rp485
-sS'modified'
-p486
-g485
-sS'title'
-p487
-VTest Passage for branching
-p488
-sbsasS'scale'
-p489
->>>>>>> origin/Branch-1
+p507
 F0.60000000000000009
 ss.
