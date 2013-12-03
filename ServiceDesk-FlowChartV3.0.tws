@@ -103,7 +103,7 @@ sg30
 g40
 sbsa(dp42
 g12
-I00
+I01
 sg13
 (lp43
 F10.0
@@ -115,7 +115,7 @@ p44
 (dp45
 S'text'
 p46
-Vbody{\u000abackground-color:white;\u000afont-size:14px;\u000acolor:black;\u000afont-family:\u201dcourier new\u201d;\u000a}\u000a\u000a#sidebar #title{\u000acolor:black;\u000afont-size:28px\u000a}\u000a\u000a#sidebar #title:hover{\u000acolor:black\u000a}\u000a\u000a#sidebar li{\u000acolor:black;\u000afont-size:20px;\u000atext-align:left;\u000afont-family:\u201dcourier new\u201d;\u000a}\u000a\u000a#sidebar li:hover{\u000acolor:black\u000a}\u000a\u000a#passages{\u000acolor:black;\u000afont-size:18px;\u000a}\u000a\u000anarrative{\u000acolor:#cc33cc;\u000afont-weight:normal;\u000afont-family:"Helvetica";\u000a}\u000a\u000ainterm{\u000acolor:#32CD32;\u000afont-weight:normal;\u000afont-family:"Monaco";\u000a}\u000a\u000aspace{\u000apadding-left:2.0cm;\u000a}\u000a\u000aul.choicelist\u000a{\u000atext-align: left;\u000a}\u000aul.choicelist li\u000a{\u000adisplay: list-item;\u000a}\u000a\u000a\u000a
+Vbody{\u000abackground-color:white;\u000afont-size:14px;\u000acolor:black;\u000afont-family:\u201dcourier new\u201d;\u000a}\u000a\u000a#sidebar #title{\u000acolor:black;\u000afont-size:28px\u000a}\u000a\u000a#sidebar #title:hover{\u000acolor:black\u000a}\u000a\u000a#sidebar li{\u000acolor:black;\u000afont-size:20px;\u000atext-align:left;\u000afont-family:\u201dcourier new\u201d;\u000a}\u000a\u000a#sidebar li:hover{\u000acolor:black\u000a}\u000a\u000a#passages{\u000acolor:black;\u000afont-size:18px;\u000a}\u000a\u000anarrative{\u000acolor:#cc33cc;\u000afont-weight:normal;\u000afont-family:"Helvetica";\u000a}\u000a\u000ainterm{\u000acolor:#32CD32;\u000afont-weight:normal;\u000afont-family:"Monaco";\u000a}\u000a\u000aspace{\u000apadding-left:2.0cm;\u000a}\u000a\u000aul.choicelist\u000a{\u000atext-align: left;\u000a}\u000aul.choicelist li\u000a{\u000adisplay: list-item;\u000a}\u000a\u000a\u000a.passage li {\u000adisplay: list-item;\u000a}\u000a.passage ul\u000a{\u000atext-align: left;\u000a}
 p47
 sS'title'
 p48
@@ -549,7 +549,7 @@ Vaccount
 p199
 sbsa(dp200
 g12
-I01
+I00
 sg13
 (lp201
 F1550.0
