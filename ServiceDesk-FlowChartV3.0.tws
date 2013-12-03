@@ -115,7 +115,7 @@ p44
 (dp45
 S'text'
 p46
-Vbody{\u000abackground-color:white;\u000afont-size:14px;\u000acolor:black;\u000afont-family:\u201dcourier new\u201d;\u000a}\u000a\u000a#sidebar #title{\u000acolor:black;\u000afont-size:28px\u000a}\u000a\u000a#sidebar #title:hover{\u000acolor:black\u000a}\u000a\u000a#sidebar li{\u000acolor:black;\u000afont-size:20px;\u000atext-align:left;\u000afont-family:\u201dcourier new\u201d;\u000a}\u000a\u000a#sidebar li:hover{\u000acolor:black\u000a}\u000a\u000a#passages{\u000acolor:black;\u000afont-size:18px;\u000a}\u000a\u000anarrative{\u000acolor:#cc33cc;\u000afont-weight:normal;\u000afont-family:"Helvetica";\u000a}\u000a\u000ainterm{\u000acolor:#32CD32;\u000afont-weight:normal;\u000afont-family:"Monaco";\u000a}\u000a\u000aspace{\u000apadding-left:2.0cm;\u000a}\u000a\u000a\u000a\u000a
+Vbody{\u000abackground-color:white;\u000afont-size:14px;\u000acolor:black;\u000afont-family:\u201dcourier new\u201d;\u000a}\u000a\u000a#sidebar #title{\u000acolor:black;\u000afont-size:28px\u000a}\u000a\u000a#sidebar #title:hover{\u000acolor:black\u000a}\u000a\u000a#sidebar li{\u000acolor:black;\u000afont-size:20px;\u000atext-align:left;\u000afont-family:\u201dcourier new\u201d;\u000a}\u000a\u000a#sidebar li:hover{\u000acolor:black\u000a}\u000a\u000a#passages{\u000acolor:black;\u000afont-size:18px;\u000a}\u000a\u000anarrative{\u000acolor:#cc33cc;\u000afont-weight:normal;\u000afont-family:"Helvetica";\u000a}\u000a\u000ainterm{\u000acolor:#32CD32;\u000afont-weight:normal;\u000afont-family:"Monaco";\u000a}\u000a\u000aspace{\u000apadding-left:2.0cm;\u000a}\u000a\u000aul.choicelist\u000a{\u000alist-style-type:circle !important;\u000a}\u000a\u000a\u000a
 p47
 sS'title'
 p48
@@ -560,7 +560,7 @@ Tiddler
 p202
 (dp203
 g177
-V<html>\u000a<p><narrative>So your having problem loggin into your computer.</narrative></p>\u000a<p>Wait for Callers Reply</p>\u000a<p></p>\u000a<hr>\u000a</html>\u000a
+V<html>\u000a<p><narrative>So your having problem loggin into your computer.</narrative></p>\u000a<p>Wait for Callers Reply</p>\u000a\u000a<ul class="choicelist">\u000a<li>Coffee</li>\u000a<li>Milk</li>\u000a</ul> \u000a\u000a<p></p>\u000a<hr>\u000a</html>\u000a
 p204
 sg179
 (lp205
