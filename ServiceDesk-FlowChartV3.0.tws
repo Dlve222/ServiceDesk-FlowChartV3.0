@@ -103,7 +103,7 @@ sg30
 g40
 sbsa(dp42
 g12
-I01
+I00
 sg13
 (lp43
 F10.0
@@ -549,7 +549,7 @@ Vaccount
 p199
 sbsa(dp200
 g12
-I00
+I01
 sg13
 (lp201
 F1550.0
@@ -560,7 +560,7 @@ Tiddler
 p202
 (dp203
 g177
-V"So you're having problem logging into your computer".\u000a----\u000a*Are you sure your using the correct Username and Password?\u000a*Is the Caps Lock Button On?\u000a*three Do you have access to a web browser from another computer, or another users computer? Once you have access to web browser are you able to log into the Account Manager?\u000a----\u000aDid any of these solve the issue?\u000a[[Yes]]\u000a[[No]]
+V"So you're having problem logging into your computer".\u000a----\u000a*Are you sure your using the correct Username and Password?\u000a*Is the Caps Lock Button On?\u000a*Do you have access to a web browser from another computer, or another users computer? \u000a**Once you have access to web browser are you able to log into the Account Manager?\u000a***Yes - Are you sure you computer is on the domain.  \u000a***No - Reset the users Passowrd\u000a----\u000aDid any of these solve the issue?\u000a[[Yes]]\u000a[[No]]
 p204
 sg179
 (lp205
@@ -597,7 +597,7 @@ Tiddler
 p213
 (dp214
 g177
-V<html>\u000a<hr>\u000a<p><narrative>What are you trying to log in to.</narrative></p>\u000a<p>Wait for Callers Reply</p>\u000a<p>Acknowledge the users reply</p>\u000a<hr>\u000a<p><interm>What was the customer having a problem Logging into?</interm></p>\u000a</html>
+V"So you're having problem logging into your computer".\u000a----\u000a*Are you sure your using the correct User name and Password?\u000a*Is the Caps Lock Button On?\u000a*Do you have access to a web browser from another computer, or another users computer? \u000a**Once you have access to web browser are you able to log into the Account Manager?\u000a***Yes - Are you sure you computer is on the domain.  \u000a***No - Reset the users Password\u000a----\u000aDid any of these solve the issue?\u000a[[Yes]]\u000a[[No]]
 p215
 sg179
 (lp216
@@ -671,7 +671,7 @@ Tiddler
 p235
 (dp236
 g177
-V<html>\u000a<hr>\u000a<p><narrative>What are you trying to log in to.</narrative></p>\u000a<p>Wait for Callers Reply</p>\u000a<p>Acknowledge the users reply</p>\u000a</hr>\u000a<p><interm>What was the customer having a problem Logging into?</interm></p>\u000a\u000a\u000a</html>
+V"So you're having problem logging into your Black Board Account".\u000a----\u000a*Are you sure your using the correct Username and Password?\u000a*Is the Caps Lock Button On? \u000a*Are you able to log into the Account Manager?\u000a**Yes - Then Try using a differnt web browser  \u000a**No - Reset the users Passowrd\u000a----\u000aDid any of these solve the issue?\u000a[[Yes]]\u000a[[No]]
 p237
 sg179
 (lp238
@@ -1610,9 +1610,10 @@ Tiddler
 p524
 (dp525
 g511
-g162
+VCreate a service now ticket for the service desk to investigate further.
+p526
 sg512
-(lp526
+(lp527
 sg514
 g23
 ((I2013
@@ -1624,16 +1625,94 @@ I17
 I1
 I337
 I0
-tp527
-(dp528
-tp529
-Rp530
+tp528
+(dp529
+tp530
+Rp531
 sg519
-g530
+g531
 sg520
 VNo
-p531
-sbsasS'scale'
 p532
+sbsa(dp533
+g12
+I00
+sg13
+(lp534
+F1970.0
+aF150.0
+asg15
+(itiddlywiki
+Tiddler
+p535
+(dp536
+S'text'
+p537
+S''
+p538
+sS'tags'
+p539
+(lp540
+sS'created'
+p541
+g23
+((I2013
+I12
+I4
+I7
+I52
+I5
+I2
+I338
+I0
+tp542
+(dp543
+tp544
+Rp545
+sS'modified'
+p546
+g545
+sS'title'
+p547
+S'Untitled Passage 1'
+p548
+sbsa(dp549
+g12
+I00
+sg13
+(lp550
+F1970.0
+aF290.0
+asg15
+(itiddlywiki
+Tiddler
+p551
+(dp552
+g537
+g538
+sg539
+(lp553
+sg541
+g23
+((I2013
+I12
+I4
+I7
+I52
+I5
+I2
+I338
+I0
+tp554
+(dp555
+tp556
+Rp557
+sg546
+g557
+sg547
+S'Untitled Passage 2'
+p558
+sbsasS'scale'
+p559
 F0.60000000000000009
 ss.
