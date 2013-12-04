@@ -1,11 +1,11 @@
 (dp0
 S'buildDestination'
 p1
-VC:\u005cUsers\u005cdlve222\u005cDocuments\u005cGitHub\u005cServiceDesk-FlowChartV3.0\u005cServiceDesk-FlowChartV3.0.html
+VC:\u005cUsers\u005cmahudg2\u005cDocuments\u005cweb\u005cServiceDesk Flowchart\u005cservicedeskflow.html
 p2
 sS'saveDestination'
 p3
-S'C:\\Users\\dlve222\\Documents\\GitHub\\ServiceDesk-FlowChartV3.0\\ServiceDesk-FlowChartV3.0.tws'
+S'C:\\Users\\mahudg2\\Documents\\GitHub\\ServiceDesk-FlowChartV3.0\\ServiceDesk-FlowChartV3.0.tws'
 p4
 sS'target'
 p5
@@ -549,7 +549,7 @@ Vaccount
 p199
 sbsa(dp200
 g12
-I01
+I00
 sg13
 (lp201
 F1550.0
@@ -1372,14 +1372,14 @@ I00
 sg13
 (lp448
 F3230.0
-aF10.0
+aF8.3333333333333339
 asg15
 (itiddlywiki
 Tiddler
 p449
 (dp450
 g314
-V<html>\u000a<p><narrative>What are you trying to log in to.</narrative></p>\u000a<p>Wait for Callers Reply</p>\u000a<p>Acknowledge the users reply</p>\u000a<hr>\u000a<p><interm>What was the customer having a problem Logging into?</interm></p>\u000a</html>
+V"Are you using a UK Google email account, Exchange mailbox, Microsoft Office 365 email, or your own personal email?"\u000a\u000a[[I don't know|checkemail]]\u000a[[Exchange|exchangemail]]\u000a[[Google|googlemail]]\u000a[[Microsoft 365 email|office365email]]
 p451
 sg316
 (lp452
@@ -1409,7 +1409,7 @@ I00
 sg13
 (lp459
 F3510.0
-aF10.0
+aF8.3333333333333339
 asg15
 (itiddlywiki
 Tiddler
@@ -1482,15 +1482,15 @@ g12
 I00
 sg13
 (lp481
-F4070.0
-aF10.0
+F3979.9999999999968
+aF51.666666666666494
 asg15
 (itiddlywiki
 Tiddler
 p482
 (dp483
 g314
-V<html>\u000a<p><narrative>What are you trying to log in to.</narrative></p>\u000a<p>Wait for Callers Reply</p>\u000a<p>Acknowledge the users reply</p>\u000a<hr>\u000a<p><interm>What was the customer having a problem Logging into?</interm></p>\u000a</html>
+V"Are you in front of a computer with an internet connection now?"\u000a\u000a[[No|ServiceDeskPasswordReset]]\u000a[[Yes|CustomerPasswordReset]]
 p484
 sg316
 (lp485
@@ -1639,8 +1639,8 @@ g12
 I00
 sg13
 (lp534
-F1970.0
-aF150.0
+F2699.9999999999995
+aF243.33333333333337
 asg15
 (itiddlywiki
 Tiddler
@@ -1712,7 +1712,483 @@ g557
 sg547
 S'Untitled Passage 2'
 p558
+sbsa(dp559
+g12
+I00
+sg13
+(lp560
+F4098.3333333333358
+aF206.66666666666654
+asg15
+(itiddlywiki
+Tiddler
+p561
+(dp562
+S'text'
+p563
+V"Follow these steps to reset your password:\u000a* Navigate to www.uky.edu and click on the Link Blue button at the top.\u000a\u000a* Now click on Account Manager\u000a\u000a* Attempt to login. (Even though we don't know the password it needs to fail to get access to the password reset)\u000a\u000a* Click on Reset your Password\u000a\u000a*Answer the password reset questions\u000a\u000aYour password should now be set to u$ The last six digits of your UKID and then the word blue. All lower case. You must now login to the account manager and change your password before you will be able to login anywhere else"\u000a\u000aCurrent Password Policy: http://wiki.uky.edu/accounts/Wiki%20Pages/University%20of%20Kentucky%20Computer%20Password%20Policy.aspx\u000a\u000a[[The customer was not able to answer the reset questions|ServiceDeskPasswordReset]]\u000a[[The customer is not in front of a computer right now|ServiceDeskPasswordReset]]\u000a
+p564
+sS'tags'
+p565
+(lp566
+sS'created'
+p567
+g23
+((I2013
+I12
+I4
+I8
+I33
+I0
+I2
+I338
+I0
+tp568
+(dp569
+tp570
+Rp571
+sS'modified'
+p572
+g571
+sS'title'
+p573
+VCustomerPasswordReset
+p574
+sbsa(dp575
+g12
+I00
+sg13
+(lp576
+F3905.0000000000068
+aF204.99999999999875
+asg15
+(itiddlywiki
+Tiddler
+p577
+(dp578
+g563
+V"Open UAMs (in portal under Enterprise Services)\u000a\u000aVerify the requestor's identity using any of the 3 pieces of information\u000a\u000aUKID\u000aFULL name\u000aBirth Date\u000aHome Address on file in SAP\u000aLast 4 digits of their Social\u000a\u000aOnce user is verified Select the record in UAMS and click All Svr to bring up list of accounts associated with this profile\u000a\u000aFrom the list of servers for that account select either AD or MC according to the user's domain use and click Server\u000a\u000aClick set activity code button\u000a\u000aSelect Reset PW and then Modify Server Login\u000a\u000aPassword is set to U$ and the last 6 digits of the users UKID number. R in the Processed category. Status will change to P within 10 to 15 minutes and user will be able to go to account manager (ukam.uky.edu) to set up new password.\u000a\u000a\u000aClick on info you have verified (At least 3 required)\u000a[[UKID|ukidverified]]\u000a[[FULL name|fullnameverified]]\u000a[[Birth Date|birthdateverified]]\u000a[[Home Address on file in SAP|addressverified]]\u000a[[Last 4 digits of their Social|socialverified]]\u000a\u000a----\u000aCustomers's Linkblue:<<textinput $customerlinkblue>>\u000a[[Create Ticket in Service Now|passwordresetticketgeneration]]\u000a
+p579
+sg565
+(lp580
+sg567
+g23
+((I2013
+I12
+I4
+I8
+I37
+I50
+I2
+I338
+I0
+tp581
+(dp582
+tp583
+Rp584
+sg572
+g584
+sg573
+VServiceDeskPasswordReset
+p585
+sbsa(dp586
+g12
+I00
+sg13
+(lp587
+F148.33333333333329
+aF430.00000000000023
+asg15
+(itiddlywiki
+Tiddler
+p588
+(dp589
+g563
+Vversion.extensions.timedgotoMacro={major:1,minor:2,revision:0};\u000amacros["goto"]=macros.timedgoto={timer:null,handler:function(a,b,c,d){function cssTimeUnit(s){if(typeof s=="string"){if(s.slice(-2).toLowerCase()=="ms"){return +(s.slice(0,-2))||0\u000a}else{if(s.slice(-1).toLowerCase()=="s"){return +(s.slice(0,-1))*1000||0\u000a}}}throwError(a,s+" isn't a CSS time unit");return 0}var t,d,m,s;\u000at=c[c.length-1];d=d.fullArgs();m=0;if(b!="goto"){d=d.slice(0,d.lastIndexOf(t));\u000am=cssTimeUnit(t)}d=eval(Wikifier.parse(d));if(d+""&&state&&state.init){if(macros["goto"].timer){clearTimeout(macros["goto"].timer)\u000a}s=state.history[0].passage.title;macros["goto"].timer=setTimeout(function(){if(state.history[0].passage.title==s){state.display(d,a)\u000a}},m)}}};
+p590
+sg565
+(lp591
+Vscript
+p592
+asg567
+g23
+((I2013
+I12
+I4
+I9
+I19
+I38
+I2
+I338
+I0
+tp593
+(dp594
+tp595
+Rp596
+sg572
+g596
+sg573
+Vtimegoto macro
+p597
+sbsa(dp598
+g12
+I00
+sg13
+(lp599
+F3570.0000000000086
+aF240.00000000000009
+asg15
+(itiddlywiki
+Tiddler
+p600
+(dp601
+g563
+V<<set $ukidverified = 1>>\u000a<<goto "ServiceDeskPasswordReset">>
+p602
+sg565
+(lp603
+sg567
+g23
+((I2013
+I12
+I4
+I9
+I20
+I50
+I2
+I338
+I0
+tp604
+(dp605
+tp606
+Rp607
+sg572
+g607
+sg573
+Vukidverified
+p608
+sbsa(dp609
+g12
+I00
+sg13
+(lp610
+F3573.3333333333371
+aF519.99999999999829
+asg15
+(itiddlywiki
+Tiddler
+p611
+(dp612
+S'text'
+p613
+V<<set $fullnameverified = 1>>\u000a<<goto "ServiceDeskPasswordReset">>
+p614
+sS'tags'
+p615
+(lp616
+sS'created'
+p617
+g23
+((I2013
+I12
+I4
+I9
+I20
+I50
+I2
+I338
+I0
+tp618
+(dp619
+tp620
+Rp621
+sS'modified'
+p622
+g621
+sS'title'
+p623
+Vfullnameverified
+p624
+sbsa(dp625
+g12
+I00
+sg13
+(lp626
+F3571.6666666666697
+aF378.33333333333184
+asg15
+(itiddlywiki
+Tiddler
+p627
+(dp628
+S'text'
+p629
+V<<set $socialverified = 1>>\u000a<<goto "ServiceDeskPasswordReset">>
+p630
+sS'tags'
+p631
+(lp632
+sS'created'
+p633
+g23
+((I2013
+I12
+I4
+I9
+I20
+I50
+I2
+I338
+I0
+tp634
+(dp635
+tp636
+Rp637
+sS'modified'
+p638
+g637
+sS'title'
+p639
+Vsocialverified
+p640
+sbsa(dp641
+g12
+I00
+sg13
+(lp642
+F3570.0000000000045
+aF673.33333333333121
+asg15
+(itiddlywiki
+Tiddler
+p643
+(dp644
+S'text'
+p645
+V<<set $addressverified = 1>>\u000a<<goto "ServiceDeskPasswordReset">>
+p646
+sS'tags'
+p647
+(lp648
+sS'created'
+p649
+g23
+((I2013
+I12
+I4
+I9
+I20
+I50
+I2
+I338
+I0
+tp650
+(dp651
+tp652
+Rp653
+sS'modified'
+p654
+g653
+sS'title'
+p655
+Vaddressverified
+p656
+sbsa(dp657
+g12
+I00
+sg13
+(lp658
+I150
+aF1316.6666666666654
+asg15
+(itiddlywiki
+Tiddler
+p659
+(dp660
+S'text'
+p661
+V<<set $socialverified = 1>>\u000a<<goto "ServiceDeskPasswordReset">>
+p662
+sS'tags'
+p663
+(lp664
+sS'created'
+p665
+g23
+((I2013
+I12
+I4
+I9
+I20
+I50
+I2
+I338
+I0
+tp666
+(dp667
+tp668
+Rp669
+sS'modified'
+p670
+g669
+sS'title'
+p671
+Vsocialverified
+p672
+sbsa(dp673
+g12
+I00
+sg13
+(lp674
+F3573.3333333333348
+aF825.00000000000102
+asg15
+(itiddlywiki
+Tiddler
+p675
+(dp676
+S'text'
+p677
+V<<set $birthdateverified = 1>>\u000a<<goto "ServiceDeskPasswordReset">>
+p678
+sS'tags'
+p679
+(lp680
+sS'created'
+p681
+g23
+((I2013
+I12
+I4
+I9
+I20
+I50
+I2
+I338
+I0
+tp682
+(dp683
+tp684
+Rp685
+sS'modified'
+p686
+g685
+sS'title'
+p687
+Vbirthdateverified
+p688
+sbsa(dp689
+g12
+I00
+sg13
+(lp690
+F3896.6666666666792
+aF378.3333333333328
+asg15
+(itiddlywiki
+Tiddler
+p691
+(dp692
+g563
+V<<print "http://www.uky.edu/~mahudg2/servicedesk.php?userlinkblue="+$userlinkblue+"&customerlinkblue="+$customerlinkblue+"&subcategory=9&category=1&ukidverified="+$ukidverified+"&fullnameverified="+$fullnameverified+"&birthdateverified="+$birthdateverified+"&addressverified="+$addressverified+"&socialverified="+$socialverified>>\u000a
+p693
+sg565
+(lp694
+sg567
+g23
+((I2013
+I12
+I4
+I9
+I34
+I45
+I2
+I338
+I0
+tp695
+(dp696
+tp697
+Rp698
+sg572
+g698
+sg573
+Vpasswordresetticketgeneration
+p699
+sbsa(dp700
+g12
+I00
+sg13
+(lp701
+F2949.9999999999995
+aF253.33333333333337
+asg15
+(itiddlywiki
+Tiddler
+p702
+(dp703
+g563
+VGet approval from their business officer or anyone that is on the security liason spreadsheet below\u000a\u000ahttps://sharepoint.uky.edu/UKIT/ServiceDesk/_layouts/xlviewer.aspx?id=/UKIT/ServiceDesk/Department%20Standards/Security%20Liaison.xlsx&Source=https%3A%2F%2Fsharepoint%2Euky%2Eedu%2FUKIT%2FServiceDesk%2FDepartment%2520Standards%2FForms%2FAllItems%2Easpx&DefaultItemOpen=1&DefaultItemOpen=1\u000a\u000aIf it is approved login to TS-Blue and open "Mailbox Editor" in C:\u005cscripts and follow the instructions to enable access\u000a\u000a----\u000aCustomers's Linkblue:<<textinput $customerlinkblue>>\u000a[[Create Ticket in Service Now|exchangeticketgeneration]]\u000a
+p704
+sg565
+(lp705
+sg567
+g23
+((I2013
+I12
+I4
+I11
+I58
+I30
+I2
+I338
+I0
+tp706
+(dp707
+tp708
+Rp709
+sg572
+g709
+sg573
+VEnable Exchange
+p710
+sbsa(dp711
+g12
+I01
+sg13
+(lp712
+F3258.3333333333321
+aF469.99999999999989
+asg15
+(itiddlywiki
+Tiddler
+p713
+(dp714
+g563
+V<<print "http://www.uky.edu/~mahudg2/servicedesk.php?userlinkblue="+$userlinkblue+"&customerlinkblue="+$customerlinkblue+"&subcategory=27">>\u000a
+p715
+sg565
+(lp716
+sg567
+g23
+((I2013
+I12
+I4
+I12
+I1
+I3
+I2
+I338
+I0
+tp717
+(dp718
+tp719
+Rp720
+sg572
+g720
+sg573
+Vexchangeticketgeneration
+p721
 sbsasS'scale'
-p559
+p722
 F0.60000000000000009
 ss.
