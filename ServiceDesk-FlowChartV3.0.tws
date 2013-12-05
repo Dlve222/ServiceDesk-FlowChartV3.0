@@ -1,7 +1,7 @@
 (dp0
 S'buildDestination'
 p1
-VC:\u005cUsers\u005cdlve222\u005cDocuments\u005cGitHub\u005cServiceDesk-FlowChartV3.0\u005cServiceDesk-FlowChartV3.0.html
+VC:\u005cUsers\u005cmahudg2\u005cDocuments\u005cweb\u005cServiceDesk Flowchart\u005cservicedeskflow.html
 p2
 sS'saveDestination'
 p3
@@ -192,8 +192,8 @@ g12
 I00
 sg13
 (lp76
-F570.0
-aF290.0
+F573.33333333333371
+aF289.99999999999994
 asg15
 (itiddlywiki
 Tiddler
@@ -586,7 +586,7 @@ VComputer
 p210
 sbsa(dp211
 g12
-I00
+I01
 sg13
 (lp212
 F1550.0
@@ -597,7 +597,7 @@ Tiddler
 p213
 (dp214
 g177
-V"So you're having problem logging into your Email".\u000a----\u000a*what email are you trying to log into?\u000a\u000a*Are you sure your using the correct User name and Password?\u000a*Is the Caps Lock Button On?\u000a*Do you have access to a web browser from another computer, or another users computer? \u000a**Once you have access to web browser are you able to log into the Account Manager?\u000a***Yes - Are you sure you computer is on the domain.  \u000a***No - Reset the users Password\u000a----\u000aDid any of these solve the issue?\u000a[[Yes|start-1]]\u000a[[No]]
+V"So you're having problem logging into your Email".\u000a----\u000a*what email are you trying to log into?\u000a[[I don't know|Check Email]]\u000a[[Exchange|Exchange Email]]\u000a[[Google|googlemail]]\u000a[[Microsoft 365 email|office365email]]\u000a*Are you sure your using the correct User name and Password?\u000a*Is the Caps Lock Button On?\u000a*Do you have access to a web browser from another computer, or another users computer? \u000a**Once you have access to web browser are you able to log into the Account Manager?\u000a***Yes - Are you sure you computer is on the domain.  \u000a***No - Reset the users Password\u000a----\u000aDid any of these solve the issue?\u000a[[Yes|start-1]]\u000a[[No]]
 p215
 sg179
 (lp216
@@ -2257,8 +2257,8 @@ g12
 I00
 sg13
 (lp735
-F2040.0000000000007
-aF463.33333333333326
+F1976.6666666666667
+aF433.33333333333314
 asg15
 (itiddlywiki
 Tiddler
@@ -2415,9 +2415,10 @@ Tiddler
 p782
 (dp783
 g749
-g178
+V"What are you having trouble with on your UK google account?"\u000a\u000a[[Can't login|googleemaillogin]]\u000a
+p784
 sg750
-(lp784
+(lp785
 sg752
 g23
 ((I2013
@@ -2429,16 +2430,16 @@ I30
 I3
 I339
 I0
-tp785
-(dp786
-tp787
-Rp788
+tp786
+(dp787
+tp788
+Rp789
 sg757
-g788
+g789
 sg758
 Vgooglemail
-p789
-sbsasS'scale'
 p790
+sbsasS'scale'
+p791
 F0.60000000000000009
 ss.
